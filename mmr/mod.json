@@ -1,0 +1,43 @@
+{
+	"geode": "4.9.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "bluescratch.main_menu_reworked",
+	"name": "Main Menu Reworked",
+	"version": "v1.0.0",
+	"developer": "Bluescratch",
+	"description": "Reworks The Main Menu",
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	},
+	"incompatibilities": {
+		"ninxout.redash": {
+			"importance": "breaking",
+			"version": ">=1.0.0"
+		}
+	},
+	"settings": {
+		"enable-mmr": {
+			"type": "title",
+			"name": "Enable Main Menu Reworked"
+		},
+		"toggle-mmr": {
+			"type": "bool",
+			"default": true,
+			"name": "toggle Main Menu Reworked",
+			"description": "Toggles The MMR Mod",
+			"requires-restart": true
+		},
+		"toggle-moreGames": {
+			"type": "bool",
+			"name": "toggle More Games Button",
+			"description": "toggles the more games button",
+			"default": false,
+			"requires-restart": false
+		}
+	}
+}
